@@ -14,7 +14,7 @@ def wind_chill(data, data2):
             wc = 13.12 + 0.6215 * temperature - 11.37 * (v ** 0.16) + 0.3965 * temperature * (v ** 0.16)
             print(f"At temperature {temperature}C, and wind speed {v}km/h, the windchill is: {wc:.2f}C")
 
-
+#Code
 user_choose = int(input("What is the temperature? "))
 user_choose_temperature = input("Fahrenheit or Celsius (F/C)? ")
 wind_chill(user_choose, user_choose_temperature)
